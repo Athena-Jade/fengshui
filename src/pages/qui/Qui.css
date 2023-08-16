@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&display=swap');
+.qui-suis-je{
+    /*background-color: rgba(240, 210, 230, 0.574);*/
+   /**/ 
+    /**/margin-top: 10rem;
+   
+    position: relative;
+    padding: 2rem;
+}
+.bcg-qui{
+    background-color: #deeaea;
+    padding: 1rem;
+    margin-top: -5rem;
+}
+.qui{
+    font-family: 'Dancing Script', cursive;
+    color:rgba(222, 184, 135, 0.969) ;
+    position: absolute;
+    top: -1%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+
+.identites{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 6rem 8rem;
+    background-color: white;
+
+}
+.qui-gauche{
+    flex: 1 1 15rem;
+    align-self: center;
+}
+.img-delphine2{   
+    padding: 2rem;
+    width: 100%;
+}
+
+.qui-droite{
+    flex: 1 1 15rem;
+    align-self: center;
+}
+.nom-prenom{
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+   
+    padding: 1rem;
+}
+.profession{
+    color: blue;
+   
+    padding: 1rem;
+}
+.adresse{
+    color: rgba(222, 184, 135, 0.969);
+   
+   
+    padding: 1rem;
+}
+.telephone{
+    color: blue;
+   
+    margin-left: 0rem;
+    padding: 1rem;
+}
+.mail{
+    color: blue;
+ 
+    
+}
+
+
+/************* discours ***************/
+.discours{
+    display: block;
+    margin: 1rem 5rem;
+   
+}
+
+
+@media screen and (max-width:960px){
+   
+}
+
+
+
+@media screen and (max-width:768px){
+   /* */.identites{
+        flex-direction: column;
+        margin: 6rem 2rem;
+        padding: 0 1rem;
+    }
+   
+     
+    .qui{
+        position: absolute;
+        top: 0%;
+        left: 18%;
+        transform: translate(-50%, -50%); 
+        font-size: 1.80rem
+    }
+    
+    .discours{
+        margin: 1rem ;
+    }
+
+    
+    
+}
+/**/
+
+@media screen and (max-width:576px){
+    .qui{
+        position: absolute;
+        top: 0%;
+        left: 22%;
+        transform: translate(-50%, -50%); 
+        font-size: 1.50rem  
+    }
+}    
+    
+
+@media screen and (max-width:450px){
+    
+    .identites{
+        margin: 5rem 0rem;
+    }
+
+}

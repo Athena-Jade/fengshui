@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&display=swap');
+
+/*font-family: 'Dancing Script', cursive;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro-livret {
+    /* background-color: rgb(220, 224, 227);*/
+
+    margin-top: 6rem;
+    /* background-color: rgb(220, 224, 227);*/
+}
+
+.img-intro-livret {
+    margin-top: -2rem;
+}
+
+.bcg-livret {
+    background-color: white;
+    padding: 1rem;
+
+    margin: 3rem 5%;
+}
+
+.bcg-exterieur {
+    margin-top: 3rem;
+    background-color: #deeaea;
+    border-top: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+
+}
+
+.box-livret {
+    position: relative;
+    /*  display: flex;  */
+    display: inline-block;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.titre-livret-harmoniser {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #4343bb;
+    font-family: 'Dancing Script', cursive;
+    /*  font-size: 1.85rem;  */
+    font-size: 3rem;
+
+
+}
+
+
+
+
+
+
+.para-livret {
+    display: block;
+    margin-top: 5rem;
+    text-align: center;
+    color: #33335f;
+}
+
+
+.analyse-btn {
+    background-color: palevioletred;
+    color: #1d1d6f;
+    font-weight: bolder;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+/*********livret personnalise *********/
+
+.titre-livret-perso {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    color: rgb(184, 186, 58);
+    font-family: 'Dancing Script', cursive;
+}
+
+.contenair-livret-perso {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.box-livret-perso {
+    position: relative;
+    flex: 0 1 45rem;
+}
+
+
+.titre-galets-gauche {
+    position: absolute;
+    top: 24%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #303072;
+    font-family: 'Dancing Script', cursive;
+    /* font-size: 2rem;*/
+    font-size: 2rem;
+
+}
+
+.titre-perso-milieu {
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.liste-domaines {
+    display: flex;
+}
+
+.contenair-para-livret2 {
+    display: inline-block;
+    justify-content: center;
+}
+
+.para-livret2 {
+    margin: 2rem 5rem;
+    color: #33335f;
+}
+
+
+/************ plan-livret ***********/
+.plan-livret {
+    /*  display: grid;
+    grid-template-columns: repeat(2,1fr);
+   grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));*/
+
+    display: flex;
+    justify-content: space-between;
+    
+   /* */flex-wrap: wrap;
+
+}
+
+.liste-plan,
+.liste-piece {
+    margin-left: 1.5rem;
+    color: #33335f;
+    list-style: none;
+}
+
+/******** plan gauche*********/
+.plan-gauche {
+    flex: 0 1 15rem;
+
+}
+
+.titre-introduction,
+.titre-bfs,
+.titre-piece {
+    color: #33335f;
+    /* */
+    padding-top: 1rem;
+}
+
+.titre-plan-gauche {
+    color: purple;
+    font-family: 'Dancing Script', cursive;
+}
+
+.titre-piece {
+    background-color: rgb(220, 208, 220);
+    width: 14rem;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+
+
+/******** plan droit*********/
+.plan-droit {
+    flex: 1 1 15rem;
+    margin-left: 2rem;
+}
+
+.titre-plan-droit {
+    padding-top: 1rem;
+    margin-left: 1rem;
+    color: purple;
+    font-family: 'Dancing Script', cursive;
+}
+
+/******* box-plan*******/
+.box-plan {
+    flex: 0 1 5rem;
+    align-self: center;
+
+
+}
+
+.para-droit {
+    color: #4d4db9;
+    padding: 1rem;
+}
+
+/**/
+.img-box-plan {
+    width: 70%;
+
+}
+
+/************** PLAN-LIVRET-2*****************/
+.plan-livret2 {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.plan-gauche2 {
+    flex: 0 1 15rem;
+}
+
+.titre-plan-gauche2 {
+    color: purple;
+    font-family: 'Dancing Script', cursive;
+}
+
+.titre-plan-droit2 {
+    padding-top: 1rem;
+    margin-left: 1rem;
+    color: purple;
+    font-family: 'Dancing Script', cursive;
+}
+
+.titre-introduction2,
+.titre-bfs2,
+.titre-piece2 {
+    color: #33335f;
+    padding-top: 1rem;
+}
+
+.titre-piece2 {
+    background-color: rgb(220, 208, 220);
+    width: 14rem;
+    padding: 0.5rem;
+}
+
+.para-droit2 {
+    color: #4d4db9;
+    ;
+}
+
+.plan-droit2 {
+    flex: 0 1 30rem;
+}
+
+.zone-carriere {
+    flex: 0 1 18rem;
+}
+
+
+/******** zone carriere*********/
+.blue1 {
+    color: #1d1d6f;
+}
+
+.blue2 {
+    color: #1f1f34;
+}
+
+.blue3 {
+    color: #303072;
+}
+
+.blue4 {
+    color: rgb(75, 149, 149);
+}
+
+.blue5 {
+    color: blue;
+}
+
+/**/
+.titre-zone-carriere {
+    color: rgb(70, 209, 207);
+}
+
+.couleurs-carrieres {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 6rem;
+
+}
+
+/******* box-secteur-et-couleurs ******/
+.box-secteur-et-couleurs {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1rem;
+
+
+}
+
+.titre-secteur1,
+.titre-couleur1 {
+    color: blue;
+}
+
+/*** cadre-elem***/
+.cadre-elem {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid blue;
+    margin: 2rem 1rem;
+    padding: 1rem;
+    width: 20rem;
+
+}
+
+.titre-cadre-elm-eau,
+.titre-cadre-elm-terre {
+    flex: 1 1 15rem;
+
+}
+
+.objets-conseilles1 {
+    margin-top: 2rem;
+    color: #4d4db9;
+
+}
+
+.titre-objets-conseilles {
+    padding: 1rem;
+}
+
+
+/******* Zone-etude-connaissance ********/
+.zone-etude-connaissance {
+    margin-top: 6rem;
+}
+
+.titre-zone-etude-connaissance {
+    color: rgb(70, 209, 207);
+    ;
+}
+
+.coul-etude-connaissance {
+
+    display: flex;
+    justify-content: center;
+
+    margin: 1rem;
+}
+
+.box-secteur-et-couleurs2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.objets-conseilles2 {
+
+    margin: 1rem 2rem;
+    color: #4d4db9;
+}
+
+
+
+
+
+
+
+
+
+/************ Offres offre1*************/
+/*
+.offres{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+.contenair-offre1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+   background-color: #ababc1;
+    margin: 3rem 15rem;
+
+    flex: 2 1 15rem;
+}
+.offre1-gauche{
+    flex: 1 1 15rem;
+    align-self: center; 
+     position: relative;
+}
+.img-offre1{
+    width: 100%;
+    border: 2px solid white;
+    padding: 0.25rem;
+    margin: 1rem;
+}
+
+
+.titre1{
+    position: absolute;
+    top: 26%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+}
+
+.titre2{
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+}
+.titre3{
+    position: absolute;
+    top: 72%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder; 
+}
+
+.offre1-droite{
+    flex: 1 1 15rem;
+    align-self: center;
+  
+}
+*/
+
+
+.offres{
+    display: flex;
+   
+    justify-content: center;
+    margin: 6rem 5%;
+}
+.contenair-offre1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid gray;
+    padding: 1rem;
+   /* flex-wrap: wrap;*/
+   background-color: cadetblue;
+}
+.box-img-lanterne{
+    flex: 2 1 15rem;
+    align-self: center;
+    position: relative;
+   
+}
+.img-offre1{
+     padding: 0.5rem;
+   
+   
+    background-color: white;
+}
+.contenu-droite{
+    flex: 1 1 15rem;
+    align-self: center; 
+    text-align: center;
+    padding: 1rem;
+   
+}
+
+.titre1{
+    position: absolute;
+    top: 26%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+    
+}
+.titre2{
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;
+}
+.titre3{
+    position: absolute;
+    top: 72%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bolder;  
+}
+
+
+.titre4 {
+    padding: 1rem;
+    color: blue;
+}
+.price-offre1{
+    padding: 1rem;
+}
+
+.btn-offre1{
+    padding: 0.5rem;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** MEDIAS QUERIES ********************** */
+@media screen and (max-width: 960px) {
+    .titre-livret-harmoniser {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {    
+    .titre-livret-harmoniser {
+        font-size: 2rem;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+    }
+
+    .titre-perso-milieu {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.50rem;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {   
+    .titre-galets-gauche {
+        position: absolute;
+        top: 28%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        font-size: 1.80rem;
+    }
+
+    .titre-perso-milieu {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.30rem;
+    }
+
+    .para-analyse-appart {
+        font-size: 1.30rem;
+    }
+
+    .para-livret2 {
+        margin: 2rem 0rem;
+    }
+
+    .plan-livret {
+        flex-direction: column;
+    }
+
+    .plan-droit {
+        margin: -2rem
+    }
+
+    .titre-plan-droit {
+        margin-top: 4rem;
+    }
+
+    .img-box-plan {
+        text-align: center;
+        margin: 1rem 13%;
+
+    }
+}
+
+@media screen and (max-width: 496px) {}
+
+
+@media screen and (max-width: 450px) {
+    .titre-livret-harmoniser {
+        font-size: 1.70rem;
+    }
+
+    .titre-galets-gauche {
+        list-style: none;
+        font-size: 1.40rem;
+    }
+
+    .para-analyse-appart {
+        font-size: 1.;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .titre-livret-harmoniser {
+        font-size: 1.60rem;
+    }
+
+
+}

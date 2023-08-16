@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.intro-atelier{
+   /* background-color: rgb(220, 224, 227);*/
+    padding: 1rem;
+    margin-top:  7.5rem;
+}
+.contenair-atelier{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    padding: 1rem;
+    background-color: #deeaea;
+    
+}
+.box-texte-atelier{
+    flex: 0 1 36rem;
+    background-color: white;
+    padding: 1rem;
+}
+.infos-atelier{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid #deeaea;
+    
+}
+.contenu-infos-atelier{
+   /* flex: 0 1 36rem;*/
+   flex: 0 1 44rem;
+   margin: 3rem 1rem;
+  
+   
+}
+.titre-atelier{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: blue;
+    font-weight: bolder;
+    text-align: center;
+}
+.box-img-atelier{
+    flex: 0 1 15rem;
+    align-self: center;
+    
+}
+.box-img-atelier{
+    width: 100%;
+}
+.img-atelier{
+    margin-top: 0rem;
+}

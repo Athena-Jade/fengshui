@@ -1,0 +1,76 @@
+/************** chi *************/
+.intro-chi{
+   /* background-color: rgb(220, 224, 227); */
+    
+    margin-top: 7.5rem;
+   
+}
+.img-le-chi{
+    margin-top: 0rem;
+}
+.contenair-chi{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.picto-chi{
+    flex: 0 1 10rem;
+    align-self: center;
+    color: blue;
+
+   
+   
+
+
+}
+.titre-chi2{
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.50rem;    
+}
+
+
+
+.img-picto-chi{
+    width: 50%;
+}
+
+.infos-chi{
+    display: flex;
+    justify-content: space-around;
+   background-color: #deeaea;
+   padding: 1rem;
+   gap: 1rem;
+   margin: 1rem;
+}
+.para-chi{
+   flex: 1 1 15rem; 
+   margin: 1rem;
+    align-self: center;
+    background-color: white;
+}
+.box-img-chi{
+    flex: 1 1 15rem;
+    align-self: center;
+}
+
+
+@media screen and (max-width:768px){
+    .infos-chi{
+       flex-direction: column; 
+        
+    }
+
+}
+/*
+@media screen and (max-width:496px){
+    .box-le-chi{
+       margin-top: 4rem;
+        
+    }
+
+}*/

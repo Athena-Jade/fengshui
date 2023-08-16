@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.intro-remedes{
+   /* background-color: rgb(220, 224, 227);
+    padding: 1rem;*/
+    margin-top: 7.5rem ;
+}
+.img-remedes{
+    margin-top: 0rem;
+}
+.contenair-remedes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+.picto-remedes{
+    flex: 0 1 10rem;
+    align-self: center;
+}
+.titre-remedes1{
+    flex: 0 1 10rem;
+    align-self: center;
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.50rem;
+
+}
+
+
+
+
+.img-picto-remedes{
+    width: 50%;
+   
+}
+
+.infos-remedes{
+    display: flex;
+    justify-content: center;
+   align-content: center;
+    align-items: center;
+}
+.para-remedes{
+    flex: 0 1 44rem;
+    margin-bottom: 1rem;
+}
+.solutions-remedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #deeaea;
+   
+    margin: 1rem 22%;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+@media screen and (max-width:960px){
+    .solutions-remedes{
+        margin: 1rem 10%;
+    }
+}
+@media screen and (max-width:768px){
+    .solutions-remedes{
+        margin: 1rem 5%;
+    }
+}
+
+@media screen and (max-width:496px){
+    .les-remedes{
+        margin-top: 4rem;
+    }
+}

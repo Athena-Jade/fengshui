@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/*font-family: 'Dancing Script', cursive;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*************** accueil *******************/
+.image-accueil{
+    display: flex; 
+   justify-content: center; 
+    margin-top: 0rem;
+    position: relative;      
+}
+
+img{
+    width: 100%;
+}
+/***** Intro-fengShui ******/
+.intro-fengShui{
+  /*  
+   background-color: rgba(240, 210, 230, 0.574);*/
+   
+   /* margin-top:  3rem;*/
+   /**/ margin-top:  7.5rem;
+
+}
+/*
+.bcg-intro{
+    background-color: rgb(220, 224, 227);
+}*/
+.contenair-fs{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    padding: 1rem;  
+   background: #deeaea;
+}
+
+.box-texte{
+    flex: 1 1 15rem;
+    align-self: center;
+}
+
+.box-img-fs{
+    flex: 1 1 15rem;
+    align-self: center; 
+}
+
+.titre-bien-etre{
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-size: 2rem;
+
+}
+
+/*********** ckoi-fs **********/
+.ckoi-fs{
+    margin-top: 5rem;
+    background-color: white;
+}
+.img-lotus{
+    width: 15%;
+   margin: 1rem 39%;
+}
+.contenair-ckoi-fs{
+    display: flex;
+    justify-content: center;
+    border: 4px solid cadetblue;
+   
+}
+.titre-ckoi-fs,.titre-bienfait-fs{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-size: 2rem;
+}
+
+
+/********* bases-fs *************/
+.bases-fs{
+    margin-top: 5rem;
+    /**/ background-color: #deeaea;
+}
+.titre-bases-fs{
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-size: 2rem;
+}
+.contenair-bases-fs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;       
+}
+.img-bases{
+    padding: 1rem ;   
+}
+
+.box-bases-gauche {
+    flex: 1 1 15rem;
+    align-self: center;
+}
+
+.box-bases-droite{
+    flex: 1 1 15rem;
+    align-self: center;
+    background: white;
+    margin: 1rem;
+}
+/*fin bases fs*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** MEDIAS QUERIES ***********************/
+@media screen and (max-width: 768px){   
+     .contenair-fs{
+        flex-direction: column-reverse;
+    }
+    .img-home{       
+      margin: 1rem auto;       
+    }
+   
+    .contenair-bases-fs{       
+        flex-direction: column;
+    }
+
+    .titre-bien-etre,.titre-ckoi-fs,.titre-bienfait-fs, .titre-bases-fs {
+        font-size: 1.70rem;
+    }
+
+}
+
+
+@media screen and (max-width: 640px){    
+     .contenair-ckoi-fs{        
+        flex-wrap: wrap;
+    } 
+} 
+
+
+@media screen and (max-width: 450px){
+    .titre-bien-etre,.titre-ckoi-fs,.titre-bienfait-fs, .titre-bases-fs {
+        font-size: 1.50rem;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* medias queries*/

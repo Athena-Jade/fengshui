@@ -1,0 +1,69 @@
+/********* explications-bases-fs ********/
+.box-explication-bases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem 5rem;
+}
+
+.box-explication1 {
+    flex: 1 1 15rem;
+}
+
+/****cycle-production **************/
+.cycle-production,
+.cycle-destruction,
+.cycle-affaiblissement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 5rem;
+}
+
+.box-schema {
+    flex: 1 1 15rem;
+}
+
+.box-cycle {
+    flex: 1 1 15rem;
+}
+
+.titre-cycle {
+    font-size: 1.75rem;
+    padding: 1rem;
+}
+
+.img-cycle {
+    width: 70%;
+}
+
+/***** element-eau******/
+.element-eau,
+.element-bois,
+.element-feu,
+.element-terre {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.box-eau {
+    flex: 1 1 15rem;
+}
+
+.box-img-eau {
+    flex: 1 1 15rem
+}
+
+.titre-element {
+    align-items: center;
+}
+
+.picto-img {
+    width: 4rem;
+}

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&display=swap');
+
+/*font-family: 'Dancing Script', cursive;*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: .3s ease-in;
+  overflow: hidden;
+  background-color: white;
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1240px;
+  margin-top: 0rem;
+  height: 16vh;
+  padding: 0 1rem;
+}
+
+/* le bien-etre par le fg */
+.logo {
+  flex: 0 1 23rem;
+  align-self: center;
+}
+
+/* le bien-etre par le fg */
+.logo a {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  line-height: 1.45rem;
+  font-weight: bolder;
+  text-align: center;
+  color: blue;
+}
+
+.horaires {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+}
+
+.texte-horaires {
+  position: absolute;
+  top: 35%;
+  left: 38%;
+  transform: translate(-7%, 111%);
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(184, 186, 58);
+}
+
+body {
+  position: relative;
+}
+
+.header .nav-menu {
+  list-style: none;
+  display: flex;
+  margin-top: -18px;
+  gap: 1rem;
+
+}
+
+/*couleurs des onglets*/
+.nav-menu a {
+  color: rgb(30, 6, 87);
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+/*pas de hover sur l'onglet active*/
+.nav-menu a:not(.active):hover {
+  color: blue;
+}
+
+.nav-menu .active {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 0.25rem;
+  border-top: 1px solid blue;
+}
+
+.header .nav-item {
+  padding: 0.25rem;
+  font-weight: 500;
+}
+
+.header .nav-item a:hover {
+  padding-bottom: 2px;
+}
+
+.hamburger {
+  display: none;
+}
+
+
+
+/******** MEDIAS QUERIES ******/
+@media screen and (max-width:1020px) {
+  .texte-horaires {
+    position: absolute;
+    top: 82%;
+    left: 54%;
+    transform: translate(-32%, -47%);
+  }
+}
+
+@media screen and (max-width:960px) {
+
+  .header .nav-menu {
+    margin-top: 18px;
+    background-color: cadetblue;
+  }
+
+  .texte-horaires {
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-32%, -47%);
+  }
+
+  .logo {
+    flex: 1 1 15rem;
+  }
+
+  .header {
+    max-width: 100%;
+  }
+
+  .header .navbar {
+    max-width: 100%;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    text-align: center;
+    transition: .3s;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .texte-horaires {
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-32%, -47%);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .texte-horaires {
+    font-size: 0.90rem;
+  }
+}

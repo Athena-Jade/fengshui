@@ -1,0 +1,98 @@
+.intro-contact {
+    /* background-color: #deeaea;*/
+    padding: 1rem;
+    margin-top: 6rem;
+}
+.img-contact{
+    margin-top: 0rem;
+}
+.contenair-contact {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 5rem 15%;
+    flex-wrap: wrap;
+    /* */
+    background: #deeaea;
+    padding: 2rem 5%;
+}
+
+.box-praticienne {
+    flex: 0 1 15rem;
+    align-self: start;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.textes-infos {
+    flex: 0 1 30rem;
+    align-self: center;
+}
+
+.identite {
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    text-align: center;
+    margin: 1rem 3rem;
+    font-weight: bolder;
+
+}
+
+.rdv {
+    border: 3px solid #deeaea;
+    padding: 1rem;
+    margin: 0rem 15%;
+}
+
+.titre-rdv {
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.phone {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    margin: 1rem;
+}
+
+.mail {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-style: italic;
+    margin: 1rem;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .textes-infos {
+        flex: 1 1 36rem;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:576px) {
+  /*  */.contenair-contact {
+        margin: 5rem 5%;
+    }
+
+    .rdv {
+        margin: 0rem 4%;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+    .rdv {
+        margin: 0rem 4.5%;
+    }
+
+}

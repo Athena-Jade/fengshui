@@ -1,0 +1,74 @@
+.bandeau-bases {
+    background-color: #deeaea;
+   margin-top: 4rem;   
+}
+
+
+/******** css grid *********/
+.contenair-bandeau-bases {
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    justify-content: center;
+    padding: 1rem;
+    align-content: center;   
+    gap: 1rem;
+}
+
+.picto-bagua,
+.picto-chi,
+.picto-rangement,
+.picto-remedes,
+.picto-5elem {
+    width: 35%;
+    text-align: center;
+}
+
+.titre-bag,
+.titre-chi,
+.titre-elem,
+.titre-remedes,
+.titre-rangement {
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+    font-size: 1.50rem;
+}
+
+.box-bagua,
+.box-chi,
+.box-5elem,
+.box-rangement,
+.box-remedes {
+    text-align: center;
+
+}
+/*** fin css grid ***/
+
+@media screen and (max-width:768px){
+    .titre-bag, .titre-chi, .titre-elem,.titre-remedes,.titre-rangement{
+        font-size: 1.25rem;
+    }           
+}
+
+
+@media screen and (max-width:576px){
+    .titre-bag, .titre-chi, .titre-elem,.titre-remedes,.titre-rangement{
+        font-size: 1.15rem;
+    }
+    
+    .contenair-bandeau-bases {
+        display: grid;  
+        grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));     
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .titre-bag,
+    .titre-chi,
+    .titre-elem,
+    .titre-remedes,
+    .titre-rangement {
+        padding: 0.5rem;      
+    }     
+}

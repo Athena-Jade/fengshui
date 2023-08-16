@@ -1,0 +1,101 @@
+/************** bagua ************/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*.intro-bagua{
+    background-color: rgb(220, 224, 227); 
+    padding: 1rem;
+    margin: 3rem; 
+}*/
+.intro-bagua{
+    margin-top: 7.5rem;
+}
+.contenair-bagua{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+ 
+   
+  
+}
+
+.picto-bagua, .titre-bagua{
+    flex: 0 1 10rem;
+    align-self: center;
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+   /* font-size: 2rem;*/
+   font-size: 1.50rem;
+     
+}
+.img-picto-bagua{
+    width: 50%;
+}
+
+.infos-bagua{
+   /* padding: 1rem;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  /*  align-items: center;*/
+
+  background: #deeaea;
+margin: 1rem;
+padding: 1rem;
+gap: 1rem;
+  
+}
+.box-img-bagua{
+    flex: 1 1 15rem;
+}
+.para-bagua{
+    flex: 1 1 15rem;
+    align-self: center;
+    background-color: white;
+    
+   
+}
+.img-bagua{
+    width: 100%;
+    margin-top: 0rem;
+}
+
+
+
+
+
+
+
+/******** medias queries **************/
+
+@media screen and (max-width:576px){
+    .infos-bagua{
+        flex-direction: column;
+        
+    }
+    .img-bagua{
+        width: 90%;
+        margin: 1rem 5%;
+        
+    }
+
+}
+
+@media screen and (max-width:496px){
+    .le-bagua{
+        margin-top: 4rem;
+    }
+}
+
+
+
+
+

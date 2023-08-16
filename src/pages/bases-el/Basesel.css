@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/******* intro-cinq-elements **********/
+.intro-cinq-elements{
+   /* background-color: rgb(220, 224, 227);   */
+  
+    margin-top: 7.5rem;
+}
+
+.img-elements{
+    margin-top: 0rem;
+}
+.contenair-elements{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   align-items: center;
+    text-align: center;
+   margin-top: 3rem;
+}
+
+.picto-elements {
+    flex: 0 1 10rem;
+    align-self: center;
+}
+
+.titre-elements1{
+    flex: 0 1 12rem;
+    align-self: center;
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+
+
+.img-picto-elements{
+    width: 50%;
+}
+
+.infos-elements{  
+    display: flex;
+    justify-content: center;
+ 
+    align-content: center;
+    align-items: center;
+   
+}
+
+.para-elements1, .para-elements2{  
+  flex: 0 1 27rem;
+    align-self: baseline; 
+}
+.para-elements1{
+    border-right: 2px solid cadetblue;
+}
+
+/******* cycles: production, destruction, affaiblissement *********/
+.les-trois-cycles{
+    background-color: #deeaea;
+    margin: 1rem 15% ;
+padding: 1rem;
+}
+.cycle-production, .cycle-destruction, .cycle-affaiblissement{
+    margin-top: 3rem;
+}
+.box-production, .box-destruction, .box-affaiblissement{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.titre-production, .titre-destruction, .titre-affaiblissement{
+    margin-left: 1rem;
+    color: blue;
+    font-weight: bolder;
+
+   
+}
+.schema-production, .schema-destruction, .schema-affaiblissement{
+    flex: 0 1 15rem;
+    align-self: center;
+}
+.img-schema-prod,.img-schema-dest, .img-schema-affaiblis{
+    width: 100%;
+}
+.texte-production, .texte-destruction,.texte-affaiblissement {
+    flex: 0 1 15rem;
+    align-self: center;
+}
+
+
+
+/********* contenair: eau, bois, feu, terre, métal ***********/
+.contenair-eau, .contenair-bois, .contenair-feu, .contenair-terre, .contenair-metal{
+    margin: 10rem;    
+}
+.box-picto-eau, .box-picto-bois, .box-picto-feu, .box-picto-terre, .box-picto-metal{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.picto-eau, .picto-feu, .picto-terre, .picto-metal{ 
+    flex: 0 1 5rem;
+    padding: 1rem;
+}
+
+/*flex 0 1 3rem est obligatoire pour le picto-bois*/
+.picto-bois{
+    padding: 1rem;
+    flex: 0 1 3rem;
+}
+
+.imag-eau, .imag-bois, .imag-feu, .imag-terre, .imag-metal{
+    padding: 1rem;
+}
+
+
+
+
+
+.titre-eau, .titre-bois, .titre-feu, .titre-terre, .titre-metal{
+    align-self: center;
+}
+
+.element-eau, .element-bois, .element-feu, .element-terre, .element-metal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;  
+    border: 2px solid cadetblue;
+    
+    background-color: white;
+}
+
+.para-eau, .para-bois, .para-feu, .para-terre, .para-metal{
+    flex: 1 1 15rem;
+    align-self: center;
+    background: #deeaea;
+margin: 1rem;
+}
+
+.box-eau, .box-bois, .box-feu, .box-terre, .box-metal{
+    flex: 1 1 15rem;
+    align-self: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*596*/
+@media screen and (max-width:960px){    
+    .element-eau, .element-bois, .element-feu, .element-terre, .element-metal{
+        flex-direction: column;                        
+    }
+
+    .contenair-bois, .contenair-eau, .contenair-feu, .contenair-metal, .contenair-terre{
+        margin:3rem;
+    }
+
+   /* .les-trois-cycles{
+        margin: 2rem 15%;
+    }*/
+
+}
+@media screen and (max-width:768){
+    .les-trois-cycles{
+        margin: 1rem 5% ;
+    }
+}
+
+
+@media screen and (max-width:641px){
+    .para-elements1{
+        border-right: none;
+    }
+    .infos-elements{
+        flex-wrap: wrap;
+    }
+
+.les-trois-cycles{
+        margin: 1rem ;
+    }
+}
+
+@media screen and (max-width:450px){    
+   .box-production, .box-destruction, .box-affaiblissement{
+   
+        font-size: 1rem;
+    }
+
+    
+    
+
+
+}
